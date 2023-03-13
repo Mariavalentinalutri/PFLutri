@@ -1,0 +1,32 @@
+{
+  "name": "exceldone-master",
+  "version": "1.0.0",
+  "description": "Pagina sobre como mejorar tu negocio, economia y tu vida en general por medio de la correcta utilización de Excel",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss sass/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariavalentinalutri/Exceldone.git"
+  },
+  "keywords": [
+    "Excel",
+    "Maria",
+    "Valentina",
+    "Lutri",
+    "Valen",
+    "Exceldone"
+  ],
+  "author": "Valentina Lutri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariavalentinalutri/Exceldone/issues"
+  },
+  "homepage": "https://github.com/Mariavalentinalutri/Exceldone#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.21"
+  }
+}

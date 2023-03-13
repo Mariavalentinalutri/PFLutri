@@ -1,0 +1,16 @@
+@keyframes Slide-in-right{
+    from {
+        transform: translateX(4000px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes Slide-in-left{
+    from {
+        transform: translateX(-4000px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

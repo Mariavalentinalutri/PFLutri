@@ -1,0 +1,84 @@
+.cabecera {
+    background-color: rgba(255, 255, 255, 0.445);
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+    .primer_linea {
+        text-align: center;
+        font-size: 0.8em;
+        margin: 0;
+    }
+}
+
+.texto_producto {
+    text-align: center;
+}
+.navbar-toggler {
+    background-color: white;
+}
+.bienvenida {
+    @media screen and (min-width) {
+        display: flex;
+    }
+}
+.mis-clases {
+    ol {
+        list-style: none;
+        padding: 0;
+    }
+}
+.serv-prod {
+    display: block;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+}
+.contacto-welcome {
+    padding: 1.74em;
+    @media screen and (min-width: 768px) {
+        width: 80%;
+        margin: auto;
+    }
+}
+.logo {
+    width: 4em;
+    @media screen and (min-width:768px){
+        width: 8em;
+    }
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        a {
+            padding: 0.5em;
+            text-decoration: none;
+            color: $text-color;
+            @include hover;
+        }
+    }
+}
+.display-mobile-none {
+    display: none;
+    @media screen and (min-width:768px) {
+        display: flex;
+    }
+}
+.display-desktop-none {
+    display: flex;
+    @media screen and (min-width:768px) {
+        display: none;        
+    }
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+.nav-link {
+    display: inline-block;
+    padding: 0.5em;
+    @include hover;
+}

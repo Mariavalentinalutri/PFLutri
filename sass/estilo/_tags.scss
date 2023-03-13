@@ -1,0 +1,17 @@
+
+header {
+    @include bg-image();
+}
+footer {
+    padding:1em;
+    @include bg-image();
+}
+section {
+    article {
+        h1 {
+            margin-bottom: 1em;
+        }
+        padding: 3em;
+        text-align: center;
+    }
+}
